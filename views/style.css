@@ -1,0 +1,371 @@
+/* basic */
+@font-face {
+  font-family: Impact;
+  src: url(./fonts/impact.ttf);
+}
+@font-face {
+  font-family: "PF BeauSans Pro";
+  src: url(./fonts/UFONTS.COM_PFBEAUSANSPRO-BOLD.TTF);
+}
+
+@font-face {
+  font-family: "PF BeauSans Pro";
+  src: url(./PFBeauSansPro-BoldItalic.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PF BeauSans Pro";
+  src: url(./PFBeauSansPro-Black.ttf);
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF BeauSans Pro";
+  src: url(./PFBeauSansPro-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF BeauSans Pro Bbook";
+  src: url(./PFBeauSansPro-Bbook.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF BeauSans Pro";
+  src: url(./PFBeauSansPro-ThinItalic.ttf);
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PF BeauSans Pro XThin";
+  src: url(./PFBeauSansPro-XThinItalic.ttf);
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PF BeauSans Pro";
+  src: url(./PFBeauSansPro-Thin.ttf);
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF BeauSans Pro XThin";
+  src: url(./PFBeauSansPro-XThin.ttf);
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF BeauSans Pro";
+  src: url(./PFBeauSansPro-SemiBold.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF BeauSans Pro";
+  src: url(./PFBeauSansPro-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF BeauSans Pro";
+  src: url(./PFBeauSansPro-SemiBoldItalic.ttf);
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PF BeauSans Pro Bbook";
+  src: url(./PFBeauSansPro-BbookItalic.ttf);
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PF BeauSans Pro";
+  src: url(./PFBeauSansPro-LightItalic.ttf);
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PF BeauSans Pro";
+  src: url(./PFBeauSansPro-Italic.ttf);
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PF BeauSans Pro";
+  src: url(./PFBeauSansPro-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PF BeauSans Pro";
+  src: url(./PFBeauSansPro-BlackItalic.ttf);
+  font-weight: 900;
+  font-style: italic;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  font-size: 62.5%;
+}
+ul {
+  padding-left: 0px;
+}
+body {
+  font-family: "PF BeauSans Pro", "Roboto", sans-serif;
+  color: #333;
+  background-color: bisque;
+}
+svg,
+img {
+  display: block;
+}
+
+.container {
+  width: 84.2rem;
+  height: 66.5rem;
+  margin: 0 auto;
+  background-color: #fff;
+}
+/* Header */
+.container h1.header {
+  font-family: Impact;
+  font-size: 12.8rem;
+  font-weight: 100;
+  line-height: 1;
+  letter-spacing: 4.5rem;
+  color: #ff0000;
+  text-align: center;
+  margin-left: 3.3rem;
+}
+/* Basic info */
+.basic-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.basic-info-container .left-side-info {
+  flex: 1 1 55%;
+  margin-left: 5rem;
+}
+
+p.make-model {
+  font-size: 3rem;
+  line-height: 3.6rem;
+}
+
+p.classified-number {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  font-weight: 700;
+}
+
+.basic-info-container div.price {
+  font-size: 3rem;
+  /* line-height: 3.6rem;
+  font-weight: 900; */
+  flex: 1 1 45%;
+  background: #808285;
+  color: #fff;
+  padding: 0.5rem;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+
+  display: flex;
+  align-items: center;
+}
+
+.basic-info-container div.price span.pr {
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+.details-container {
+  margin-left: 5rem;
+  margin-top: 1.5rem;
+}
+
+.details-container p span {
+  font-weight: 100;
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.details-container p span strong {
+  font-weight: bolder;
+}
+
+.details-container p.description {
+  font-size: 1rem;
+  font-weight: 100;
+  margin-top: 1.5rem;
+  width: 63.3rem;
+}
+
+.footer-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-section-container .telephone-location {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #015092;
+  flex: 1 1 80%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 1rem 0 1rem 5rem;
+  margin-top: 1.5rem;
+}
+
+.footer-section-container .telephone-location .tel,
+.footer-section-container .telephone-location .loc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-right: 3rem;
+}
+.tel img,
+.loc img {
+  width: 2rem;
+  filter: invert(92%) sepia(67%) saturate(29%) hue-rotate(50deg)
+    brightness(109%) contrast(100%);
+}
+
+.tel span,
+.loc span {
+  font-size: 1.6rem;
+}
+
+.footer-section-container .telephone-location .loc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-section-container .qr-code {
+  flex: 1 1 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.footer-section-container .qr-code p {
+  background: #015092;
+  font-size: 1.8rem;
+  color: #fff;
+  font-style: italic;
+  font-weight: bolder;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  position: relative;
+}
+
+.footer-section-container .qr-code p::after {
+  content: "\25b2";
+  padding-left: 0.5em;
+  position: absolute;
+  top: -16px;
+  left: 49px;
+  color: #015092;
+  scale: 2;
+}
+
+.qr-container {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  background: #d3d3d342;
+  border: 5px solid #015092;
+  border-radius: 8px;
+  z-index: 100;
+  top: 135px;
+}
+
+.qr-container::after {
+  content: "QR code here";
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.footer-section-container .qr-code p.second {
+    background: #015092;
+    font-size: 1.8rem;
+    color: #fff;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 1rem 3rem;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .footer-section-container .qr-code p.second::after {
+    content: "\25b2";
+    padding-left: 0.5em;
+    position: absolute;
+    top: -16px;
+    left: 49px;
+    color: #015092;
+    scale: 2;
+  }
+
+.qr-container2 {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  background: #d3d3d342;
+  border: 5px solid #015092;
+  border-radius: 8px;
+  z-index: 100;
+  top: 466px;
+}
+
+.qr-container2::after {
+  content: "QR code here";
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.divider {
+  border-top: 1px dashed #ff0000;
+  /* height: 1rem; */
+  margin-top: 1rem;
+}
